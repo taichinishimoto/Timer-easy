@@ -79,7 +79,7 @@ Timer
         //}
 
         setInterval('calculateTime()', 1000);
-        var myTimer=Timer('2021/9/5 6:00:00', '2021/9/5 8:00:00',  '終了！', 'timer');
+        var myTimer=Timer('2021/9/5 6:00:00', '2021/9/10 00:00:00',  '終了！', 'timer');
         myTimer.countDown();
     </script>
 </body>
