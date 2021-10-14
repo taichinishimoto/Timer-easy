@@ -7,6 +7,7 @@
         <title>タイマー</title>
     </head>
 <body>
+    2022/7/21まで
     <div id="timer"></div>
     <script language="javascript">
         document.addEventListener('DOMContentLoaded',function(){},false);
@@ -79,7 +80,7 @@
         //}
 
         setInterval('calculateTime()', 1000);
-        var myTimer=Timer('2021/9/5 6:00:00', '2021/9/10 00:00:00',  '終了！', 'timer');
+        var myTimer=Timer('2021/10/15 00:00:00', '2022/7/21 00:00:00',  '終了！', 'timer');
         myTimer.countDown();
     </script>
 </body>
